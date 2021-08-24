@@ -44,6 +44,16 @@ a:hover {
     color: #333333!important;
 }
 
+.p-size {
+    font-size: 16px !important;
+    color: #333333!important;
+}
+
+.p-size-sm {
+    font-size: 13.5px !important;
+    color: #333333!important;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -335,11 +345,14 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    display: inline !important;
 }
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #364577;
+    color: #ffffff !important;
+    border-radius: 15rem;
 }
 
 .navbar-toggle {
@@ -393,7 +406,7 @@ a:hover {
     .nav-center .navbar-brand,
     .nav-center .nav > li {
         float: none;
-        display: inline-block;
+        display: inline-block !important;
     }
     .nav-center .site-navigation {
         position: relative;
@@ -682,7 +695,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 13.5px;
 }
 
 .tight-width-whitespace {
@@ -730,6 +743,7 @@ h3 {
 
 h1 {
     color: #333333!important;
+    text-align: center;
 }
 
 h4 {
@@ -746,7 +760,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 14px;
 }
 
 .portfolio-row {
