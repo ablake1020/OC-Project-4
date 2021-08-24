@@ -31,12 +31,17 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 90px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+.h2-intro {
+    font-size: 3rem;
+    color: #333333!important;
 }
 
 .bloc .container {
@@ -45,7 +50,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 80px 50px;
 }
 
 .bloc-md {
@@ -133,7 +138,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #ffffff;
 }
 
 .d-bloc .a-btn:hover,
@@ -372,7 +377,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #364577;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -650,8 +655,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 500;
+    color: #364577!important;
 }
 
 .container {
@@ -707,6 +712,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #ffffff;
 }
 
 h3 {
@@ -819,9 +825,9 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
+/* .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+} */
 
 .bg-atlanta-20made-20sign {
     background-image: url("img/atlanta%20made%20sign.jpg");
