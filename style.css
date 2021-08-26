@@ -804,7 +804,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #a34f28;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +822,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #a34f28!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -835,11 +835,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta\ made\ sign-min.jpg");
+    background-image: url("img/atlanta-made-sign-min.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta\ made\ sign\ orange-min.jpg");
+    background-image: url("img/atlanta-made-sign-orange-compressed.jpg");
 }
 
 @media (max-width: 1024px) {
