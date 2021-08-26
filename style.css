@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100%;;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -280,11 +281,6 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
-}
-
-.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
 }
 
 .row.row-no-gutters > [class^="col-"],
