@@ -18,15 +18,6 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -60,7 +51,11 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 80px 50px;
+    padding: 20px 10px;
+}
+
+.bloc-lg-top {
+    padding: 80px 50px !important;
 }
 
 .bloc-md {
@@ -699,7 +694,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 775px;
     margin: auto auto auto auto;
 }
 
@@ -719,11 +714,11 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .social-names {
-    color: #ffffff !important;
+    color: white !important;
 }
 
 h2 {
@@ -782,7 +777,7 @@ h4 {
 }
 
 .bold-link {
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: underline!important;
 }
 
@@ -798,10 +793,6 @@ h4 {
 
 .bgc-dark-slate-blue {
     background-color: #364577;
-}
-
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
 }
 
 .tc-white {
@@ -839,8 +830,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-atlanta-20made-20sign {
