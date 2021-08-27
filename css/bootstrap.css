@@ -28,7 +28,7 @@ article,
 header,
 nav,
 section {
-    display: block
+    display: block;
 }
 
 a {
@@ -96,7 +96,7 @@ img {
         page-break-after: avoid
     }
     .navbar {
-        display: none
+        display: block;
     }
 }
 
@@ -353,19 +353,15 @@ blockquote {
     border-radius: 6px
 }
 
-.collapse {
-    display: none
-}
 
 .nav {
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
 }
 
 .nav>li {
     position: relative;
-    display: block
+    display: block;
 }
 
 .nav>li>a {
@@ -420,7 +416,7 @@ blockquote {
         display: block !important;
         height: auto !important;
         padding-bottom: 0;
-        overflow: visible !important
+        overflow: visible !important;
     }
 }
 
